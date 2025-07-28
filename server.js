@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 
 // Initialize OpenAI
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY || 'sk-PASTE_YOUR_ACTUAL_API_KEY_HERE',
+  apiKey: process.env.OPENAI_API_KEY || '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',
 });
 
 // Security middleware
