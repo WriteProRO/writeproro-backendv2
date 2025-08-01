@@ -132,14 +132,7 @@ Professional analysis includes:
 
 Write in professional GM Service Information format with proper attribution.`;
 
-        const userPrompt = `Generate GM Service Information diagnostic documentation:
-
-VEHICLE: ${vin}
-SYSTEM: ${system}
-DTC CODES: ${dtcCodes || 'None specified'}
-CUSTOMER CONCERN: ${techNotes}
-TECHNICIAN: ${technician || 'Service Technician'}
-DEALERSHIP: ${dealership || 'Authorized GM Dealership'}
+        const userPrompt = `Generate GM Service Information diagnostic documentation for a ${system} system issue with the following customer concern: ${techNotes}${dtcCodes ? ` Related DTC codes: ${dtcCodes}` : ''}
 
 Requirements:
 1. Base analysis on official GM Service Information procedures
@@ -148,6 +141,7 @@ Requirements:
 4. Provide proper GM source attribution
 5. Use professional automotive terminology
 6. Format as completed warranty documentation
+7. Do not include vehicle details, technician names, or dealership information in the output
 
 Write as professional GM Service Information diagnostic documentation with proper compliance attribution.`;
 
