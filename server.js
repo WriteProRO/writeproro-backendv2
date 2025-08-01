@@ -90,16 +90,45 @@ GM SERVICE INFORMATION INTEGRATION:
 
 Write professional warranty repair documentation following GM Service Information standards:
 
-GM DIAGNOSTIC EXAMPLE FORMAT:
-DTC P0300 (GM Specific):
-CAUSE: VERIFIED P0300 USING GDS2 GM DIAGNOSTIC TOOL. FOLLOWED GM SERVICE INFORMATION DIAGNOSTIC CHARTS. PERFORMED GM-SPECIFIC CYLINDER CONTRIBUTION TEST. IDENTIFIED IGNITION COIL FAILURE ON CYLINDER 3 PER GM DIAGNOSTIC PROTOCOL.
-CORRECTION: REPLACED IGNITION COIL ASSEMBLY WITH GM OEM PART NUMBER 12611424. FOLLOWED GM SERVICE INFORMATION INSTALLATION PROCEDURE. CLEARED DTCS USING GDS2. PERFORMED GM-SPECIFIED ROAD TEST VALIDATION.
+PROFESSIONAL WARRANTY DOCUMENTATION FORMAT:
+Use this exact structure for all responses:
+
+**CAUSE:**
+[Detailed diagnostic findings in ALL CAPS warranty format]
+
+**CORRECTION:**
+[Specific repair actions taken in ALL CAPS warranty format]
+
+**EXAMPLE:**
+DTC P0300 - Engine Misfire Detected:
+**CAUSE:** VERIFIED P0300 USING GDS2 GM DIAGNOSTIC TOOL. FOLLOWED GM SERVICE INFORMATION DIAGNOSTIC CHARTS. PERFORMED GM-SPECIFIC CYLINDER CONTRIBUTION TEST. IDENTIFIED IGNITION COIL FAILURE ON CYLINDER 3 PER GM DIAGNOSTIC PROTOCOL.
+
+**CORRECTION:** REPLACED IGNITION COIL ASSEMBLY WITH GM OEM PART NUMBER 12611424. FOLLOWED GM SERVICE INFORMATION INSTALLATION PROCEDURE. CLEARED DTCS USING GDS2. PERFORMED GM-SPECIFIED ROAD TEST VALIDATION.
+
+TECHNICAL CONTENT REQUIREMENTS:
+- Include specific diagnostic test procedures and specifications
+- Reference GM technical service bulletins (TSBs) when applicable
+- Specify exact torque specifications, fluid capacities, and measurements
+- Detail step-by-step diagnostic sequences per GM protocols
+- Include safety precautions and special tool requirements
+
+INDUSTRY-SPECIFIC TERMINOLOGY:
+Use professional automotive diagnostic language including:
+- Powertrain Control Module (PCM), Body Control Module (BCM)
+- OBD-II diagnostic trouble codes (DTCs) and freeze frame data
+- Scan tool parameters: PID values, data stream analysis
+- Component-specific terms: actuators, sensors, solenoids, relays
+- GM-specific terminology: GDS2, Tech2, MDI interface
+- Technical measurements: ohms, volts, amperage, vacuum (in-Hg)
+- Repair procedures: R&R (remove and replace), torque specifications
 
 Professional analysis includes:
+- Detailed diagnostic test sequences with expected values
+- Component testing procedures with pass/fail criteria
 - GM Service Information diagnostic protocol compliance
-- Success rates based on GM technical data
+- Success rates based on GM technical data and field experience
 - Time estimates from GM labor guide standards
-- Preventive maintenance recommendations per GM schedules
+- Required special tools and equipment specifications
 
 Write in professional GM Service Information format with proper attribution.`;
 
